@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d6b31a0f.css",
+    "main.js": "/Portfolio/static/js/main.6538c909.js",
+    "static/media/main.jpeg": "/Portfolio/static/media/main.b79b0c93e0a91cf29ae9.jpeg",
+    "static/media/VenkataLokesh Resume.pdf": "/Portfolio/static/media/VenkataLokesh Resume.13d88274d71fed4cbfbd.pdf",
+    "static/media/VL03.png": "/Portfolio/static/media/VL03.213c73b3f906d5848a96.png",
+    "static/media/27.svg": "/Portfolio/static/media/27.785149e51fac64eefb62d511783a46ed.svg",
+    "static/media/node-js-svgrepo-com.svg": "/Portfolio/static/media/node-js-svgrepo-com.4d8b9a0c5a604b6b68d3750273f913d6.svg",
+    "static/media/java-logo-svgrepo-com.svg": "/Portfolio/static/media/java-logo-svgrepo-com.7ea5f3cd13c298dc043942bb8d44070a.svg",
+    "static/media/javascript-svgrepo-com.svg": "/Portfolio/static/media/javascript-svgrepo-com.0866c81b3b841c647e23b8a5d991c312.svg",
+    "static/media/icons8-twitter.svg": "/Portfolio/static/media/icons8-twitter.c759977ca496dcf52ec2c8797a411d1a.svg",
+    "static/media/python-svgrepo-com.svg": "/Portfolio/static/media/python-svgrepo-com.62e8a4442709e711eb8c89041804c775.svg",
+    "static/media/git-svgrepo-com.svg": "/Portfolio/static/media/git-svgrepo-com.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "static/media/github-svgrepo-com.svg": "/Portfolio/static/media/github-svgrepo-com.404ff619057c051258a81f63d464629e.svg",
+    "static/media/expressjs-icon.svg": "/Portfolio/static/media/expressjs-icon.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
+    "static/media/icons8-github (1).svg": "/Portfolio/static/media/icons8-github (1).338d83ea24d46b0f3524f42449486f9b.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/tailwind-svgrepo-com.svg": "/Portfolio/static/media/tailwind-svgrepo-com.973c73e85d4daa24b257ba20298716c4.svg",
+    "static/media/icons8-linkedin.svg": "/Portfolio/static/media/icons8-linkedin.e9b8df20d092b20af087c400014ff4c8.svg",
+    "static/media/html-5-svgrepo-com.svg": "/Portfolio/static/media/html-5-svgrepo-com.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "main.d6b31a0f.css.map": "/Portfolio/static/css/main.d6b31a0f.css.map",
+    "main.6538c909.js.map": "/Portfolio/static/js/main.6538c909.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6b31a0f.css",
+    "static/js/main.6538c909.js"
+  ]
+}
