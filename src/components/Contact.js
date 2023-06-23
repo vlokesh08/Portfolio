@@ -1,6 +1,11 @@
 import React from 'react'
+import { useState } from 'react';
 
 function Contact() {
+    const [inputname,setInputName] = useState('');
+    const [inputmail,setInputMail] = useState('');
+    const [message,setMessage] = useState('');
+
   return (
     <section id="contact">
         <div className="container lg:pt-5">
@@ -22,13 +27,13 @@ function Contact() {
                 <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-pallete-200 px-7 ml-5 py-4 lg:px-8 ">
                     <form className="w-full">
                         <div className="mb-5">
-                            <input type="text" placeholder="Enter your Name" className="w-full focus:outline-none p-3 rounded-sm" />
+                            <input onChange={(e)=> setInputName(e.target.value)} type="text" placeholder="Enter your Name" className="w-full focus:outline-none p-3 rounded-sm" />
                         </div>
                         <div className="mb-5">
-                            <input type="text" placeholder="Enter your Name" className="w-full focus:outline-none p-3 rounded-sm" />
+                            <input onChange={(e)=> setInputMail(e.target.value)} type="text" placeholder="Enter your Name" className="w-full focus:outline-none p-3 rounded-sm" />
                         </div>
                         <div className="mb-5">
-                            <textarea type="text" placeholder="Enter your Message" rows={3} className="w-full focus:outline-none p-3 rounded-sm" />
+                            <textarea onChange={(e)=> setMessage(e.target.value)} type="text" placeholder="Enter your Message" rows={3} className="w-full focus:outline-none p-3 rounded-sm" />
                         </div>
                         <button id="tella" className="w-full p-3 text-white bg-pallete-600 rounded-xl hover:outline-none">Send</button>
                     </form>
