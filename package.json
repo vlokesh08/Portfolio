@@ -2,6 +2,7 @@
   "homepage": "https://vlokesh08.github.io/Portfolio",
   "name": "test",
   "version": "0.1.0",
+  "homepage" : "https://venkatalokesh-portfolio.vercel.app/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
