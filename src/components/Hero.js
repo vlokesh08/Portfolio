@@ -36,8 +36,8 @@ function Hero() {
                     </div>
                     <div className="flex items-center gap-6 mt-7">
                         <a href="#contact">
-                        <button className="flex text-pallete-200 bg-pallete-700  items-center gap-2 text-bold font-[300] border border-solid
-                    py-2 px-8 max-h-[40px] rounded-2xl hover:text-white hover:font-[500] hover:bg-pallete-700">
+                        <button className="flex text-pallete-200 bg-blue-500  items-center gap-2 text-bold font-[300] border border-solid
+                    py-2 px-8 max-h-[40px] rounded-2xl hover:text-white hover:font-[500] hover:bg-blue-700">
                         Contact Me
                     </button>
                         </a>
@@ -62,6 +62,11 @@ function Hero() {
                     </figure>
                 </div>
             </div>
+        <br />
+        <br />
+        <br />
+
+        <br />
         </div>
     </section>
   )

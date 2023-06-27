@@ -1,4 +1,12 @@
 import React from 'react'
+import {
+    Card,
+    CardHeader,
+    CardBody,
+    CardFooter,
+    Typography,
+    Tooltip,
+  } from "@material-tailwind/react";
 import python from "../images/python-svgrepo-com.svg"
 import express from "../images/expressjs-icon.svg"
 import html from "../images/html-5-svgrepo-com.svg"
@@ -8,7 +16,20 @@ import git from "../images/git-svgrepo-com.svg"
 import github from "../images/github-svgrepo-com.svg"
 import node from "../images/node-js-svgrepo-com.svg"
 import tailwind from "../images/tailwind-svgrepo-com.svg"
+import cpp from "../images/icons8-c.svg"
 function Skills() {
+    const data = [
+        { src: python, name: 'Python' },
+        { src: cpp, name: 'C++' },
+        { src: java, name: 'Java' },
+        { src: javascript, name: 'JavaScript' },
+        { src: node, name: 'Node JS' },
+        { src: express, name: 'Express JS' },
+        { src: git, name: 'Git' },
+        { src: github, name: 'Github' },
+        { src: html, name: 'HTML' },
+        { src: tailwind, name: 'Tailwind' },
+      ];
   return (
     <section id="skills">
         <div className="container lg:pt-5">
@@ -18,43 +39,21 @@ function Skills() {
                 <h3>These are the Languages, tools and frameworks I'm familiar with.</h3>
             </div>
             <div className="flex flex-wrap justify-evenly items-center gap-3 m-4 p-4">
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={python} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">Python</h3>
-                </div>
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={java} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">Java</h3>
-                </div>
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={javascript} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">JavaScript</h3>
-                </div>
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={node} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">Node JS</h3>
-                </div>
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={express} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">Express JS</h3>
-                </div>
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={git} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">Git</h3>
-                </div>
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={github} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">Github</h3>
-                </div>
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={html} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">HTML</h3>
-                </div>
-                <div className="w-[170px] h-[170px] m-5 text-center p-4 flex flex-col items-center  hover:bg-pallete-200 hover:rounded-2xl sm:w-1/2 md:w-1/3 lg:w-1/5">
-                    <img src={tailwind} className="w-[120px] flex items-center justify-center h-[120px] m-4 p-4" alt loading='hehe'></img>
-                    <h3 className="">Tailwind</h3>
-                </div>
-            </div>
+            {data.map((item, index) => (
+                <Card key={index} className="w-[170px] h-[170px] mt-4">
+                <CardHeader shadow={false} floated={false} className="h-96">
+                    <img src={item.src} className="w-full h-full" alt={item.name} />
+                </CardHeader>
+                <CardBody>
+                    <div className="flex items-center justify-center mb-2">
+                    <Typography color="blue-gray" className="font-popp font-[500]">
+                        {item.name}
+                    </Typography>
+                    </div>
+                </CardBody>
+                </Card>
+            ))}
+            </div> 
         </div>
     </section>
   )

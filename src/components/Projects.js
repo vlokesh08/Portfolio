@@ -1,5 +1,6 @@
 import React from 'react'
 import projects from "./Skilltemp";
+import Card from './Card';
 
 function Projects() {
   return (
@@ -14,12 +15,7 @@ function Projects() {
             <div className="flex flex-wrap items-center justify-center gap-4 mt-12"> 
                 {
                     projects?.map((project) => (
-                        <div className="group max-w-full sm:w-[48.5%] md:w-[31.8%] lg:w-[32.2%] relative z-[1]">
-                            <figure>
-                                <img src={project.imageUrl}></img>
-                            </figure>
-
-                        </div>
+                        <Card project={project} />
                     ))
                 }
 
