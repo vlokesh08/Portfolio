@@ -5,17 +5,10 @@ import {
     CardFooter,
     Typography,
     Button,
-    Tooltip,
     IconButton,
   } from "@material-tailwind/react";
   import {
-    BanknotesIcon,
-    StarIcon,
     HeartIcon,
-    WifiIcon,
-    HomeIcon,
-    TvIcon,
-    FireIcon,
   } from "@heroicons/react/24/solid";
    
   export default function Example(props) {
@@ -23,6 +16,7 @@ import {
       <Card className="w-full max-w-[26rem] shadow-lg">
         <CardHeader floated={false} color="blue-gray">
           <img
+            className=" w-full h-[180px]"
             src={props.project.imageUrl}
             alt="ui/ux review check"
           />
