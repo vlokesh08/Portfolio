@@ -1,35 +1,39 @@
 import React from 'react'
-import image2 from "../images/27.svg";
-
+import image2 from "../images/main.jpeg";
+import Skills from './Skills';
 function About() {
   return (
     <section id="about">
         <div className="container lg:pt-5">
-        <div className="w-auto h-[2px] bg-pallete-300 m-8"></div>
-            <div className="text-center">
-                <h2 className="text-popp font-[700] text-3xl mb-5">ABOUT</h2>
-            </div>
-            <div className="flex flex-row px-3 justify-evenly ">
-                <div className="w-[3000px] hidden sm:block ">
+            <div className="flex flex-row px-3 justify-between">
+                <div className="w-[1280px] hidden sm:block p-8  ">
                     <img className="" src={image2} alt="textImage"></img>
                 </div>
-                <div className="">
-                    <h1 className="text-popp font-[600] text-2xl mb-4">
-                        I'm Lokesh. I live in Nellore, where I design the future.
+                <div className="p-5 ">
+                    <h1 className="text-quicksand font-[200] text-4xl mb-4">
+                    Hello there, I’m Lokesh!
                     </h1>
-                    <p className="">
-                    I am a final year student at RMK Engineering College, and I'm thrilled to share my journey and interests with you. With a remarkable CGPA of 9.4, I have consistently demonstrated a strong commitment to academic excellence throughout my college years.
+                    <p className=" text-justify font-mplus text-sm font-medium tracking-wider" id="lala">
+                    Currently I am based in Nellore, India. I'm persuing Bachelors in Computer Science from RMK Engineering College in Present.                    </p>
+                    <br></br>
+                    <p className=" text-justify font-mplus text-sm font-medium tracking-wider" id="lala">
+                    My focus is predominantly web development using technologies like React, Node.js, and MongoDB, but I also have experience with languages like Python, C++, Java, and frameworks like ExpressJS. I enjoy contributing to open source projects on platforms like GitHub.                    </p>
+                    <br></br>
+                    <p className=" text-justify font-mplus text-sm font-medium tracking-wider" id="lala">
+                    New and emerging technologies like artificial intelligence, machine learning, blockchain, and augmented reality excite me. I hope to continue enhancing my skills in these domains and apply them to create impactful and innovative solutions.                    </p>
+                    <br></br>
+                    <p className=" text-justify font-mplus text-sm font-medium tracking-wider" id="lala">
+                    Some of my recent projects include <span className=' font-semibold'><a href="https://github.com/vlokesh08/Snapbuy">SnapBuy</a></span>, a e-commerce website developed using React and Express, and <span className=' font-semibold'><a href="https://github.com/vlokesh08/Snapbuy">User API</a></span>, a RESTful API project utilizing CRUD operations with Node.js and MongoDB.
                     </p>
                     <br></br>
-                    <p>
-                    Prior to my engineering studies, I completed my 12th grade at Narayana Junior College in Nellore, where I achieved an impressive CGPA of 9.8. This foundation laid the groundwork for my passion for learning and continuous personal growth.
-                    </p>
-                    <br></br>
-                    <p>
-                    Even during my 10th grade, I excelled academically with a CGPA of 9.7, showcasing my consistent dedication to education. But my enthusiasm doesn't end with academics alone; I am particularly fascinated by web development and always eager to expand my knowledge in this field.
+                    <p className=" text-justify font-mplus text-sm font-medium tracking-wider" id="lala">
+                    If you would like to discuss potential opportunities or have any other questions, please feel free to reach out via email at <span className="font-semibold"><a onclick="handleClick()" href="mailto:venkatalokeshvl@gmail.com">venkatalokeshvl@gmail.com</a> </span> . I would be happy to connect further and discuss how I can add value to your organization.
                     </p>
                 </div>
             </div>
+        </div>
+        <div>
+            <Skills />
         </div>
     </section>
   )

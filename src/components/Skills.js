@@ -3,9 +3,7 @@ import {
     Card,
     CardHeader,
     CardBody,
-    CardFooter,
     Typography,
-    Tooltip,
   } from "@material-tailwind/react";
 import python from "../images/python-svgrepo-com.svg"
 import express from "../images/expressjs-icon.svg"
@@ -33,7 +31,6 @@ function Skills() {
   return (
     <section id="skills">
         <div className="container lg:pt-5">
-            <div className="w-auto h-[2px] bg-pallete-300 m-5 "></div>
             <div className=" text-center">
                 <h1 className="text-popp font-[700] text-3xl">SKILLS</h1><br></br>
                 <h3>These are the Languages, tools and frameworks I'm familiar with.</h3>

@@ -4,6 +4,10 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      quicksand: ["Quicksand", "sans-serif"],
+      mplus: ["M PLUS Rounded 1c", "sans-serif"],
+    },
     colors: {
       'pallete': {
         100: '#cF8F9FA',
@@ -17,11 +21,7 @@ module.exports = withMT({
         900: '#212529',
       },
     },
-    extend: {},
-    fontFamily: {
-      body: ['Poppins'],
-      popp:['Poppins'],
-    }
+    extend: {}
   },
   plugins: [],
 })
