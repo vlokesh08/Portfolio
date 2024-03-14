@@ -10,6 +10,7 @@ import ProfileMenu from "./components/ProfileMenu";
 import NewAbout from "./components/NewAbout";
 import NewHero from "./components/NewHero";
 import { Route, Routes } from "react-router-dom";
+import ProjectReview from "./components/pages/ProjectReview";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/project/:id" element={<ProjectReview />} />
         </Routes>
         {/* <NewHero />
         <About />
@@ -29,7 +31,10 @@ function App() {
         <Skills />
         <Projects />
         <Contact /> */}
-        <Footer />
+        <div>
+
+          <Footer />
+        </div>
       </main>
     </>
   );

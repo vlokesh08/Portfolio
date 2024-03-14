@@ -21,6 +21,19 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
+  cursor: url('../src/images/Custom_Cursor_Light.svg'), auto;
+}
+#dabba {
+  max-width: 1170px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+#main_hero {
+  background: url('../src/images/background_circles.svg');
+
+  color: #373737;
+
 }
 section {
   padding: 50px 0;
@@ -30,5 +43,5 @@ section {
 }
 
 #lala {
-  font-family: 'Raleway', sans-serif;
+  font-family:  sans-serif;
 }

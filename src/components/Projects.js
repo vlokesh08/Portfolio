@@ -4,26 +4,51 @@ import projects from "./Skilltemp"
 
 const Projects = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-4 p-4 sm:grid-cols-1">
-      {projects.map((project) => (
-        <div
-          key={project.id}
-          className="relative overflow-hidden rounded-md cursor-pointer hover:shadow-lg"
-        >
-          <img
-            src={project.imageUrl}
-            alt={project.title}
-            className="w-full h-[320px] object-cover transition-transform duration-300 transform scale-100 hover:scale-105 hover:hidden"
-          />
-          <div className=" w-full h-[320px] absolute inset-0 flex items-center justify-center align-middle opacity-0 hover:opacity-100 transition-opacity duration-300">
-            <div className="text-black text-center p-4 bg-white bg-opacity-100 rounded-md w-full h-[320px]">
-              <h3 className="text-lg font-bold mb-2">{project.title}</h3>
-              <p>{project.description}</p>
-            </div>
-          </div>
+
+      <section className="py-10 md:py-16">
+
+<div className="container max-w-screen-xl mx-auto px-4">
+
+    <div className="flex flex-col lg:flex-row justify-between">
+        <div className="mb-10 lg:mb-0">
+            <h1 className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Projects</h1>
+
+            <p className="font-normal text-gray-500 text-xs md:text-base">These are the Projects <br></br>that I have worked with!</p>
         </div>
-      ))}
+
+        <div className="space-y-24">
+          {
+            projects.map((project) => {
+              return (
+                <div className="flex space-x-6">
+                <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">{project.id}</h1>
+
+                <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                <div>
+                  <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">{project.title}</h1>
+
+                  <p className="font-normal text-gray-500 text-sm md:text-base w-[250px] sm:w-[450px] text-justify">{project.description}</p>
+                  <div class="relative">
+                    <a href={'/project/' + project.id}>
+                      <h6 class="font-semibold text-gray-500 text-md relative z-10">Read More</h6>
+                    </a>
+                    <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                  </div>
+                </div>
+            </div>
+              )
+            })
+          }
+            
+        </div>
     </div>
+
+</div>
+
+</section>
+
+    // </div>
   );
 };
 

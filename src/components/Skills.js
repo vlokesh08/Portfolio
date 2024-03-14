@@ -15,18 +15,26 @@ import github from "../images/github-svgrepo-com.svg"
 import node from "../images/node-js-svgrepo-com.svg"
 import tailwind from "../images/tailwind-svgrepo-com.svg"
 import cpp from "../images/icons8-c.svg"
+import react from "../images/react-svgrepo-com.svg"
+import redis from "../images/redis-opened-svgrepo-com.svg"
+import docker from  "../images/docker-svgrepo-com.svg"
+import mongo from "../images/mongo-svgrepo-com.svg"
 function Skills() {
     const data = [
         { src: python, name: 'Python' },
         { src: cpp, name: 'C++' },
         { src: java, name: 'Java' },
+        { src: html, name: 'HTML' },
         { src: javascript, name: 'JavaScript' },
-        { src: node, name: 'Node JS' },
+        { src: mongo, name: 'MongoDB' },
         { src: express, name: 'Express JS' },
+        { src: react, name: 'React' },
+        { src: node, name: 'Node JS' },
         { src: git, name: 'Git' },
         { src: github, name: 'Github' },
-        { src: html, name: 'HTML' },
         { src: tailwind, name: 'Tailwind' },
+        { src: redis, name: 'Redis' },
+        { src: docker, name: 'Docker' },
       ];
   return (
     <section id="skills">
@@ -38,7 +46,7 @@ function Skills() {
             <div className="flex flex-wrap justify-evenly items-center gap-3 m-4 p-4">
             {data.map((item, index) => (
                 <Card key={index} className="w-[170px] h-[170px] mt-4">
-                <CardHeader shadow={false} floated={false} className="h-96">
+                <CardHeader shadow={false} floated={false} className="h-96 flex justify-center align-middle">
                     <img src={item.src} className="w-full h-full" alt={item.name} />
                 </CardHeader>
                 <CardBody>

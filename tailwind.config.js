@@ -21,7 +21,11 @@ module.exports = withMT({
         900: '#212529',
       },
     },
-    extend: {}
+    extend: {
+      backgroundImage: {
+        'circles': "url('./images/background_circles.svg')",
+      }
+    }
   },
   plugins: [],
 })
