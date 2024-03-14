@@ -4,7 +4,7 @@ import image from "../images/background_circles.svg"
 const Hero = () => {
   return (
     <>
-      <div className="container bg-circles" id="main_hero">
+      <div className="container >
         <div className="flex justify-center align-middle h-screen z-10">
           <div className="flex flex-col justify-center align-middle h-screen p-4">
             <div className=" text-4xl p-2">
