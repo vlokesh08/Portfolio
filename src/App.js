@@ -11,11 +11,12 @@ import NewAbout from "./components/NewAbout";
 import NewHero from "./components/NewHero";
 import { Route, Routes } from "react-router-dom";
 import ProjectReview from "./components/pages/ProjectReview";
+import Learnings from "./components/pages/learnings/Learnings";
 function App() {
   return (
     <>
       <div className="m-6">
-        <ProfileMenu />
+        <Navbar />
       </div>
       <main>
         <Routes>
@@ -23,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/learnings" element={<Learnings />} />
           <Route path="/project/:id" element={<ProjectReview />} />
         </Routes>
         {/* <NewHero />
