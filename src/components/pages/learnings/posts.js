@@ -11,8 +11,8 @@ const posts = [
     },
     {
       date: "03-04-2024",
-      summary: "Started by solving the problems on LeetCode.",
-      tags: ["LeetCode"]
+      summary: "Started by solving the problems on LeetCode and CSES and added the profile section in the project HelpPro known MongoDB refs ",
+      tags: ["LeetCode", "MongoDB","Project","CSES Problems"]
     },
     ]
 
