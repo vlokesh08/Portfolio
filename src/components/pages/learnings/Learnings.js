@@ -32,12 +32,12 @@ const Learnings = () => {
                           
                           <div className="flex flex-wrap">
                             {tags.map((tag) => (
-                              <a
+                              <p
                                 href="/"
                                 className="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                               >
                                 {tag.split(" ").join("-")}
-                              </a>
+                              </p>
                             ))}
                           </div>
                         </div>
