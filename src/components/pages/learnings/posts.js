@@ -14,6 +14,17 @@ const posts = [
       summary: "Started by solving the problems on LeetCode and CSES and added the profile section in the project HelpPro known MongoDB refs ",
       tags: ["LeetCode", "MongoDB","Project","CSES Problems"]
     },
+    {
+      date: "06-04-2024",
+      summary: "Changed my linux system to windows for editing of youtube videos and done some problems on leetcode and CSES ",
+      tags: ["LeetCode", "CSES","Linux","Windows","Youtube"]
+    },
+    {
+      date: "07-04-2024",
+      summary: "Solved the problems on LeetCode and CSES ",
+      tags: ["LeetCode", "CSES Problems"]
+    },
+    
     ]
 
 export default posts;
