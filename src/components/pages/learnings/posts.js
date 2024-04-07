@@ -21,8 +21,8 @@ const posts = [
     },
     {
       date: "07-04-2024",
-      summary: "Solved the problems on LeetCode and CSES ",
-      tags: ["LeetCode", "CSES Problems"]
+      summary: "Solved the problems on LeetCode and CSES added posts routes for filtering in Help Pro Project",
+      tags: ["LeetCode", "CSES Problems","Project","Routes","MongoDB"]
     },
     
     ]
