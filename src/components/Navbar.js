@@ -67,7 +67,7 @@ const Navbar = () => {
                 <div className="hidden sm:ml-6 sm:block">
                 <div className="flex align-middle justify-evenly" >
             <div className="navbar-nav flex align-middle justify-center">
-              <a className="nav-link px-5 py-2" href="/">Projects</a>
+              <a className="nav-link px-5 py-2" href="/projects">Projects</a>
               <a className="nav-link px-5 py-2" href="/learnings">Learnings</a>
               <a className="nav-link px-5 py-2" href="/about">About</a>
               <a className="nav-link px-5 py-2" href="/contact">Contact</a>
@@ -125,7 +125,7 @@ const Navbar = () => {
             <div className="sm:hidden" id="mobile-menu">
             <div className="space-y-1 px-2 pb-3 pt-2">
               <a
-                href="/"
+                href="/projects"
                 className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
                 aria-current="page"
               >

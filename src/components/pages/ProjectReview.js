@@ -9,9 +9,9 @@ const ProjectReview = (props) => {
         <div className="container max-w-screen-xl mx-auto px-4">
           <div className="">
             <div className="text-center">
-            <h1 className="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-10 md:mb-15 lg:mb-25">
-              {desc[id - 1].title} <br></br>
-            </h1>
+              <h1 className="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-10 md:mb-15 lg:mb-25">
+                {desc[id - 1].title} <br></br>
+              </h1>
             </div>
             <div className="flex justify-center align-middle">
               <img src={desc[id - 1].imageUrl} className=" w-3/4 h-3/4"></img>
@@ -40,6 +40,26 @@ const ProjectReview = (props) => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="flex justify-between mt-12 px-[150px]">
+            {id > 1 ? (
+              <a href={`${Number(id) - 1}`}>
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+                  Prev
+                </button>
+              </a>
+            ) : (
+              <button></button>
+            )}
+            {id < desc.length ? (
+              <a href={`${Number(id) + 1}`}>
+                <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
+                  Next
+                </button>
+              </a>
+            ) : (
+              <button></button>
+            )}
           </div>
         </div>
       </section>

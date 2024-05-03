@@ -12,6 +12,7 @@ import NewHero from "./components/NewHero";
 import { Route, Routes } from "react-router-dom";
 import ProjectReview from "./components/pages/ProjectReview";
 import Learnings from "./components/pages/learnings/Learnings";
+import AllProjectsPreview from "./components/AllProjectsPreview";
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/learnings" element={<Learnings />} />
           <Route path="/project/:id" element={<ProjectReview />} />
+          <Route path="/projects" element={<AllProjectsPreview />} />
         </Routes>
         {/* <NewHero />
         <About />
