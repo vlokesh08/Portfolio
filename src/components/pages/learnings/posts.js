@@ -24,6 +24,11 @@ const posts = [
       summary: "Solved the problems on LeetCode and CSES added posts routes for filtering in Help Pro Project",
       tags: ["LeetCode", "CSES Problems","Project","Routes","MongoDB"]
     },
+    {
+      date: "05-05-2024",
+      summary: "Solved the daily Challenge on leetcode and made some changes in the project SimpleChat and learnt firebase and firestore",
+      tags: ["LeetCode", "Project","Firebase","Firestore"]
+    }
     
     ]
 
