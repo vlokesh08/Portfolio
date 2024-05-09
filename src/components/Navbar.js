@@ -1,6 +1,5 @@
-import  { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import resume from "../images/Lokesh_Resume.pdf"
+import  {  useState } from "react";
+import resume from "../images/resume.pdf"
 
 const Navbar = () => {
   const [clicked,setClicked] = useState(false);
