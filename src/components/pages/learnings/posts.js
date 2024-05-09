@@ -1,4 +1,5 @@
-const posts = [
+const posts = {
+  "April" : [
     {
       date: "01-04-2024",
       summary: "Got the more details of Docker how it works and how to use it.",
@@ -29,7 +30,26 @@ const posts = [
       summary: "Solved the daily Challenge on leetcode and made some changes in the project SimpleChat and learnt firebase and firestore",
       tags: ["LeetCode", "Project","Firebase","Firestore"]
     }
+  ],
+
+  "May" : [
+    {
+      date: "07-05-2024",
+      summary: "Solved the daily Challenge on leetcode and made some changes in the project SimpleChat for additional Features and aplied for jobs on Naukri",
+      tags: ["LeetCode", "Project","Firebase","Firestore","Naukri"]
+    },
+    {
+      date: "08-05-2024",
+      summary: "Solved the daily Challenge on leetcode and added chat feature in the project HelpPro using Socket.io and applied for jobs on Naukri",
+      tags: ["LeetCode", "Project","MongoDB","Naukri","Socket.io"]
+    },
+    {
+      date: "09-05-2024",
+      summary: "Installed Ubuntu in our PC and made some customizations and updated my portfolio and applied for jobs on Naukri and solved the daily challenge on leetcode",
+      tags: ["LeetCode","Portfolio","Naukri","Ubuntu"]
+    }]
     
-    ]
+    
+  };
 
 export default posts;

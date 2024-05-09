@@ -13,6 +13,7 @@ import { Route, Routes } from "react-router-dom";
 import ProjectReview from "./components/pages/ProjectReview";
 import Learnings from "./components/pages/learnings/Learnings";
 import AllProjectsPreview from "./components/AllProjectsPreview";
+import Blog from "./components/pages/Blog/Blog";
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
           <Route path="/learnings" element={<Learnings />} />
           <Route path="/project/:id" element={<ProjectReview />} />
           <Route path="/projects" element={<AllProjectsPreview />} />
+          <Route path="/learnings/:id" element={<Blog />} />
         </Routes>
         {/* <NewHero />
         <About />
