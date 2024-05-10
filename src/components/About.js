@@ -32,8 +32,7 @@ function About() {
               <br></br>
             <p className="font-normal text-gray-500 text-sm md:text-base text-justify">
               I am deeply intrigued by cutting-edge technologies such as
-              artificial intelligence, machine learning, blockchain, and
-              augmented reality. Continuously striving to expand my skills in
+              machine learning, WebRTC and Socket.io. Continuously striving to expand my skills in
               these domains, I aim to leverage them to craft innovative and
               meaningful solutions. 
             </p>
