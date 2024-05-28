@@ -1,5 +1,26 @@
 const desc = [
   {
+    "id": 0,
+    "title": "SimpleChat",
+    "imageUrl": "https://res.cloudinary.com/dyhb5midi/image/upload/v1714301914/bc51swbnmgp8sn9v8h3e.png",
+    "description": [
+      "SimpleChat is a real-time chat application that enables users to communicate with each other instantly. Built with React, Node.js, and Socket.io, this project offers a seamless and interactive platform for engaging in conversations and sharing information.",
+      "The application leverages the power of Socket.io to establish real-time communication channels between users. This ensures that messages are delivered instantly, creating a dynamic and responsive chat experience.",
+      "React serves as the frontend framework, providing an intuitive and user-friendly interface for users to interact with the chat application. Users can view messages, send text, and participate in group conversations with ease.",
+      "On the backend, Node.js and Express handle server-side operations, managing user authentication, message routing, and data storage. This ensures the smooth operation of the chat application and the secure exchange of information between users.",
+      "SimpleChat prioritizes user authentication, safeguarding user data and privacy. By implementing secure login processes and access controls, the application ensures that only authorized users can participate in chat conversations.",
+      "The application supports both one-on-one and group chat functionalities, enabling users to engage in private conversations or join public chat rooms. This versatility allows users to communicate with individuals or groups based on their preferences and needs."
+    ],
+    "proLink": "",
+    "techstack": [
+      "React",
+      "Node.js",
+      "Socket.io",
+      "Github"
+    ],
+    "route":"/SimpleChat",
+  },
+  {
     "id": 1,
     "title": "SnapBuy",
     "imageUrl": "https://github.com/vlokesh08/Snapbuy/assets/76467286/acf311f3-36f8-4112-b7f3-472ae6939087",
@@ -17,48 +38,10 @@ const desc = [
       "Node.js",
       "MongoDB",
       "Github"
-    ]
-  },
-  {
-    "id": 2,
-    "title": "CodeLime-Compiler",
-    "imageUrl": "https://github.com/vlokesh08/CodeLime-Compiler/assets/76467286/3de56b1d-3758-486a-bde0-c562bc1f8b72",
-    "description": [
-      "CodeLime-Compiler is a versatile software application designed to serve as a one-stop solution for compiling code written in various programming languages. It caters to a broad range of users, from beginners seeking a user-friendly platform to seasoned programmers requiring a robust and reliable compiler.",
-      "The compiler offers support for several popular programming languages, including C, C++, Java, Python, and JavaScript. This comprehensive functionality empowers users to write and compile code in their preferred language without the need for multiple software installations.",
-      "Built upon the powerful combination of React for the frontend and Express for the backend, CodeLime-Compiler delivers an efficient and streamlined user experience. The intuitive interface enables users to easily write, edit, and compile their code within a single platform.",
-      "Leveraging the power of Heroku, CodeLime-Compiler is readily available for online use. This eliminates the need for local installation and configuration, making it accessible to users from any device with an internet connection.",
-      "CodeLime-Compiler stands out as a valuable tool for programmers of all levels. Its comprehensive language support, user-friendly interface, and cloud-based accessibility make it an ideal platform for code compilation and execution."
     ],
-    "proLink": "https://github.com/vlokesh08/CodeLime-Compiler",
-    "techstack": [
-      "React",
-      "Express",
-      "Node.js",
-      "Heroku",
-      "Github"
-    ]
+    "route":"/Snapbuy",
   },
-  {
-    "id": 3,
-    "title": "Socket-io-chatApplication",
-    "imageUrl": "https://novu.co/static/9cf85cad1897e08d5813ca3573fa2c57/f67a1/Frame-64875.png",
-    "description": [
-      "The Socket.io-chatApplication offers a real-time communication platform that fosters interaction and connection between users. It employs the power of Socket.io, a JavaScript library that facilitates the establishment of persistent bidirectional communication channels.",
-      "React serves as the frontend framework, ensuring an engaging and interactive user interface. Users can effortlessly navigate the chat application, view messages, and participate in conversations in real-time.",
-      "Express acts as the backend framework, providing the necessary structure and logic to manage user authentication, message routing, and data persistence. This ensures the smooth operation of the chat application and the secure exchange of information.",
-      "The application prioritizes user authentication, safeguarding user data and preventing unauthorized access. This establishes a secure environment for communication and fosters trust among users.",
-      "Beyond one-on-one interactions, the Socket.io-chatApplication incorporates group chat functionality. This enables users to participate in discussions involving multiple individuals, facilitating efficient communication within teams or communities."
-    ],
-    "proLink": "https://github.com/vlo",
-    "techstack": [
-      "React",
-      "Express",
-      "Socket.io",
-      "Node.js",
-      "Github"
-    ]
-  },
+
   {
     "id": 4,
     "title": "Virtual Mouse using AI",
@@ -77,39 +60,7 @@ const desc = [
       "Github"
     ]
   },
-  {
-    "id": 5,
-    "title": "DetUser",
-    "imageUrl": "https://res.cloudinary.com/dyhb5midi/image/upload/v1714301914/bc51swbnmgp8sn9v8h3e.png",
-      "description": [
-          "DetUser is a RESTful API project that offers a comprehensive user information retrieval system. It leverages the capabilities of Node.js and MongoDB to facilitate the creation, retrieval, updating, and deletion (CRUD) operations for user data.",
-          "The API provides a seamless and efficient platform for managing user information, catering to a broad range of applications and use cases. It offers a flexible and scalable solution for user data management, ensuring the secure and reliable storage of user information.",
-          "DetUser prioritizes data security and integrity, implementing robust authentication and access control mechanisms. This ensures the protection of user data and the prevention of unauthorized access or tampering.",
-          "The API's RESTful architecture enables seamless integration with diverse applications and systems, offering a standardized and interoperable interface for user data management. It provides a versatile and adaptable solution for user information retrieval and management."
-      ],
-      "proLink": "",
-      "techstack": [
-          "Node.js",
-          "MongoDB",
-          "Github"
-      ]
-  },
-  {
-    "id": 6,
-    "title": "Simple Todo",
-    "imageUrl": "https://res.cloudinary.com/dyhb5midi/image/upload/v1714301994/er5t9dnjo44hth2jmz7w.jpg",
-      "description": [
-          "The Simple Todo application offers a straightforward and intuitive platform for managing daily tasks and to-do lists. It provides users with a convenient and efficient tool for organizing their activities and tracking their progress.",
-          "The application's user-friendly interface ensures a seamless and engaging task management experience. Users can effortlessly create, edit, and delete tasks, enabling them to maintain an up-to-date and organized task list.",
-          "Simple Todo prioritizes user convenience and accessibility, offering a responsive and intuitive task management platform. It provides a valuable tool for individuals seeking to enhance their productivity and time management.",
-          "The application's simplicity and ease of use make it an ideal solution for users of all levels, from beginners to experienced task managers. It offers a versatile and adaptable platform for organizing and managing tasks effectively."
-      ],
-      "proLink": "",
-      "techstack": [
-          "React",
-          "Github"
-      ]
-  },
+
   {
     "id": 7,
     "title": "Medicinal Plants Classification",
@@ -133,7 +84,8 @@ const desc = [
           "Redis",
           "OpenAI",
           "Github"
-      ]
+      ],
+      "route":"/MedicinalPlantsClassification"
   },
   {
     "id": 8,
@@ -151,12 +103,13 @@ const desc = [
           "Firebase",
           "Aceternity UI",
           "Github"
-      ]
+      ],
+      "route":"/GoogleAuthentication",
   },
   {
     "id": 9,
     "title": "HelpPro - Get help with your projects",
-    "imageUrl": "",
+    "imageUrl": "https://private-user-images.githubusercontent.com/76467286/334305615-d4359acf-681b-4bae-b4b5-62183a5c4710.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY4ODA4MTMsIm5iZiI6MTcxNjg4MDUxMywicGF0aCI6Ii83NjQ2NzI4Ni8zMzQzMDU2MTUtZDQzNTlhY2YtNjgxYi00YmFlLWI0YjUtNjIxODNhNWM0NzEwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI4VDA3MTUxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY5ODg3Njg0MmU1ZWMxYTk4ZDczNDZhOGJiMTgxYjBmMDlmMzQ4ZTM4YThlNDcwODE4MWRjZWI0MDkwYjBjYWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lHTL0ycLJNh5DybMSubiNzFG8tVTa7Uu0rypM8Om1dA",
     "description": [
       "HelpPro is a collaborative platform built using React, Node.js, Express.js, and MongoDB, tailored to facilitate project assistance. It provides a centralized hub where individuals can seek help for their projects while also offering opportunities for others to contribute and earn rewards.",
       "Using HelpPro, users can seamlessly post project details, outlining their requirements and objectives. This information is then accessible to a wide network of potential helpers, fostering collaboration and knowledge sharing.",
@@ -172,7 +125,8 @@ const desc = [
           "MongoDB",
           "ShadCN",
           "Github"
-      ]
+      ],
+      "route":"/HelpPro"
   },
   ]
 export default desc;

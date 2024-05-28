@@ -47,7 +47,14 @@ const posts = {
       date: "09-05-2024",
       summary: "Installed Ubuntu in our PC and made some customizations and updated my portfolio and applied for jobs on Naukri and solved the daily challenge on leetcode",
       tags: ["LeetCode","Portfolio","Naukri","Ubuntu"]
-    }]
+    },
+    {
+      date:"27-05-2024",
+      summary:"Solved the daily Challenge on LeetCode, Changes in PortFolio learnt about Redis and applied for jobs on Naukri",
+      tags:["LeetCode","Project","Naukri","Redis"]
+    }
+  
+  ]
     
     
   };

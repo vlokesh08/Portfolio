@@ -14,6 +14,11 @@ import ProjectReview from "./components/pages/ProjectReview";
 import Learnings from "./components/pages/learnings/Learnings";
 import AllProjectsPreview from "./components/AllProjectsPreview";
 import Blog from "./components/pages/Blog/Blog";
+import Snapbuy from "./Projects/Snapbuy";
+import MedicinalPlantsClassification from "./Projects/MedicinalPlantsClassifications";
+import SimpleChat from "./Projects/SimpleChat";
+import HelpPro from "./Projects/HelpPro";
+import GoogleAuthentication from "./Projects/GoogleAuthentication";
 function App() {
   return (
     <>
@@ -28,15 +33,15 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/learnings" element={<Learnings />} />
           <Route path="/project/:id" element={<ProjectReview />} />
+          <Route path="/project/Snapbuy" element={<Snapbuy />} />
+          <Route path="/project/SimpleChat" element={<SimpleChat />} />
+          <Route path="/project/HelpPro" element={<HelpPro />} />
+          <Route path="/project/GoogleAuthentication" element={<GoogleAuthentication />} />
+          <Route path="/project/MedicinalPlantsClassification" element={<MedicinalPlantsClassification />} />
           <Route path="/projects" element={<AllProjectsPreview />} />
           <Route path="/learnings/:id" element={<Blog />} />
         </Routes>
-        {/* <NewHero />
-        <About />
-        <NewAbout />
-        <Skills />
-        <Projects />
-        <Contact /> */}
+
         <div>
 
           <Footer />

@@ -16,7 +16,7 @@ const ProjectReview = (props) => {
             <div className="flex justify-center align-middle">
               <img src={desc[id - 1].imageUrl} className=" w-3/4 h-3/4"></img>
             </div>
-            <div className=" m-8 flex justify-center align-middle">
+            <div className=" m-8 flex justify-center align-middle items-center">
               <h3 className="px-5 font-semibold">Tech Stack </h3>
               {desc[id - 1].techstack.map((item) => {
                 return (
