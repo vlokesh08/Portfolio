@@ -52,6 +52,16 @@ const posts = {
       date:"27-05-2024",
       summary:"Solved the daily Challenge on LeetCode, Changes in PortFolio learnt about Redis and applied for jobs on Naukri",
       tags:["LeetCode","Project","Naukri","Redis"]
+    },
+    {
+      date:"28-05-2024",
+      summary:"Solved the daily Challenge on LeetCode, Changes in PortFolio , got to contribute to one of the open source project Medium App and applied for jobs on Naukri",
+      tags:["LeetCode","Project","Naukri","Redis"]
+    },
+    {
+      date:"29-05-2024",
+      summary:"Solved the daily Challenge on LeetCode, Changes in PortFolio , got to contribute to one of the open source project Medium App aiming at backend and applied for jobs on Naukri",
+      tags:["LeetCode","Project","Naukri","Redis"]
     }
   
   ]
