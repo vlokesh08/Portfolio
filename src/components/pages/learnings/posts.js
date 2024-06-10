@@ -64,6 +64,38 @@ const posts = {
       tags:["LeetCode","Project","Naukri","Redis"]
     }
   
+  ],
+  "June" : [
+    {
+      date: "01-06-2024",
+      summary: "Solved the daily Challenge on LeetCode, Changes in PortFolio , got to contribute to one of the open source project Medium App aiming at backend and applied for jobs on Naukri",
+      tags: ["LeetCode","Project","Naukri","Redis"]
+    },
+    {
+      date: "02-06-2024",
+      summary: "Made some changes in the Openesource Project FiguringOut.life and applied for jobs on Naukri", 
+      tags: ["Project","Naukri"]
+    },
+    {
+      date: "03-06-2024",
+      summary: "Started a new Projects and started learning Hono and CloudFlare Workers ",
+      tags: ["Project","Hono","CloudFlare Workers"] 
+    },
+    {
+      date: "04-06-2024",
+      summary : "Gone through more Docs on the Hono and CloudFlare Workers and solved some problems on LeetCode and CSES",
+      tags: ["LeetCode","CSES","Hono","CloudFlare Workers"]
+    },
+    {
+      date : "08-06-2024",
+      summary: "This was my birthday and spent time with family and friends went to temple and had a great time",
+      tags: ["Birthday"]
+    },
+    {
+      date: "09-06-2024",
+      summary : "Started learning Bit Manipulation and solved some problems on LeetCode and CSES",
+      tags: ["LeetCode","CSES","Bit Manipulation"]
+    }
   ]
     
     
