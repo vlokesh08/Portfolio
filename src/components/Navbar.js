@@ -1,13 +1,15 @@
 import  {  useState } from "react";
 import resume from "../images/resume.pdf"
-
+import { ModeToggle } from "./mode-toggle";
+import { Button } from "./ui/button";
+import { Sparkle } from 'lucide-react';
 const Navbar = () => {
   const [clicked,setClicked] = useState(false);
   const [clicked1,setClicked1] = useState(false);
 
   return (
     <>
-      <nav className="bg-white">
+      <nav className="bg-white dark:bg-darklight">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -66,11 +68,18 @@ const Navbar = () => {
                 <div className="hidden sm:ml-6 sm:block">
                 <div className="flex align-middle justify-evenly" >
             <div className="navbar-nav flex align-middle justify-center">
-              <a className="nav-link px-5 py-2" href="/projects">Projects</a>
               <a className="nav-link px-5 py-2" href="/learnings">Learnings</a>
               <a className="nav-link px-5 py-2" href="/about">About</a>
               <a className="nav-link px-5 py-2" href="/contact">Contact</a>
-              <a href={resume} target='_blank' className="px-3 py-4 md:px-3 md:py-2 font-medium md:font-medium bg-gray-700 flex justify-center align-middle text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-300">Resume</a>
+              <div  className="">
+              <ModeToggle />
+              </div>
+              <a href={resume} target='_blank'>
+              <Button variant="outline">
+              Resume
+              <Sparkle className="w-5 h-5 ml-2" />
+              </Button>
+              </a>
               {/* <a className="nav-link px-3" target='_blank' href={resume}>Resume</a> */}
             </div>
           </div>

@@ -45,8 +45,8 @@ function Skills() {
             </div>
             <div className="flex flex-wrap justify-evenly items-center gap-3 m-4 p-4">
             {data.map((item, index) => (
-                <Card key={index} className="w-[170px] h-[170px] mt-4">
-                <CardHeader shadow={false} floated={false} className="h-96 flex justify-center align-middle">
+                <Card key={index} className="w-[170px] h-[170px] mt-4 dark:bg-darklight dark:text-white">
+                <CardHeader shadow={false} floated={false} className="h-96 flex justify-center align-middle dark:bg-darklight">
                     <img src={item.src} className="w-full h-full" alt={item.name} />
                 </CardHeader>
                 <CardBody>

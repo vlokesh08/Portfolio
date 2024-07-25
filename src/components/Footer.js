@@ -3,8 +3,8 @@ import Links from "./Links";
 
 function Footer() {
   return (
-    <section className="bg-white">
-      <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+    <section className="bg-white dark:bg-darklight">
+      <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav className="flex flex-wrap justify-center -mx-5 -my-2"></nav>
         <div className="flex justify-center mt-8 space-x-6">
           <a target="_blank" href="https://www.linkedin.com/in/vlokesh08/" className="text-gray-400 hover:text-gray-500">

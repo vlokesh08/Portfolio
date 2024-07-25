@@ -22,10 +22,10 @@ import GoogleAuthentication from "./Projects/GoogleAuthentication";
 function App() {
   return (
     <>
-      <div className="m-6">
+      <div className=" dark:bg-darkbg">
         <Navbar />
       </div>
-      <main>
+      <main className="dark:bg-darkbg">
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />

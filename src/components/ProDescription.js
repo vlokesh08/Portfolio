@@ -1,5 +1,57 @@
 const desc = [
   {
+    "id": 9,
+    "title": "HelpPro - Get help with your projects",
+    "imageUrl": "https://res.cloudinary.com/dyhb5midi/image/upload/v1721394081/Screenshot_2024-07-19_182624_iwkyhw.png",
+    "description": [
+      "HelpPro is a collaborative platform built using React, Node.js, Express.js, and MongoDB, tailored to facilitate project assistance. It provides a centralized hub where individuals can seek help for their projects while also offering opportunities for others to contribute and earn rewards.",
+      "Using HelpPro, users can seamlessly post project details, outlining their requirements and objectives. This information is then accessible to a wide network of potential helpers, fostering collaboration and knowledge sharing.",
+      "One of the distinctive features of HelpPro is its bounty system, which allows project owners to incentivize completion by offering rewards to those who successfully finish their projects. This encourages efficient and high-quality work while providing an additional source of motivation for helpers.",
+      "To ensure secure access and interaction within the platform, HelpPro implements authentication using JSON Web Tokens (JWT). This robust authentication mechanism safeguards user data and privacy, fostering trust and confidence among users.",
+      "Overall, HelpPro streamlines the process of seeking and providing project assistance, fostering a vibrant and supportive community of users. Whether you're a project owner in need of help or a skilled individual looking to contribute, HelpPro offers a versatile and user-friendly platform to fulfill your project needs."
+  ],  
+      "proLink": "https://github.com/vlokesh08/HelpPro-frontend",
+      "techstack": [
+          "React",
+          "Hono",
+          "Postgress SQL",
+          "Prisma",
+          "ShadCN",
+          "Github",
+          "CloudFlare Workers",
+          "Cloudflare R2",
+          "Socket.io",
+          "Express JS",
+      ],
+      "route":"/HelpPro"
+  },
+  {
+    "id": 7,
+    "title": "Medicinal Plants Classification",
+    "imageUrl": "https://res.cloudinary.com/dyhb5midi/image/upload/v1714748387/Medicinal_Plants_Classification_y8elho.jpg",
+    "description": [
+      "The Medicinal Plants Classification project harnesses the power of Convolutional Neural Networks (CNN) to accurately classify various plant species based on their medicinal properties. Built as a full-stack application using React, Node.js, and Express.js, this project seamlessly integrates cutting-edge technology with user-friendly interfaces.",
+      "Utilizing OpenAI's vast database, the application retrieves detailed information regarding the medicinal uses of each plant species, offering users comprehensive insights into the health benefits they provide.",
+      "Redis is employed to enhance data access speeds, ensuring quick retrieval and seamless user experience. By leveraging Redis caching, the application optimizes performance, enabling swift access to pertinent information.",
+      "The project's frontend, developed with React, delivers an intuitive and engaging user interface, allowing users to effortlessly interact with the application. Through React's component-based architecture, the user experience is tailored for simplicity and efficiency.",
+      "On the backend, Node.js and Express.js power the application's server-side operations, facilitating seamless communication between the frontend and backend components. The robustness and scalability of these technologies ensure reliable performance and smooth operation.",
+      "The project's core functionality lies in its ability to accurately classify medicinal plants using CNN. By training the neural network on a diverse dataset of plant images, the application can identify and categorize plant species based on their medicinal attributes with high precision and accuracy.",
+      "To enhance user engagement and knowledge, the application incorporates a feature for users to contribute their own insights and experiences regarding the medicinal uses of plants. This fosters a collaborative community and enriches the database with diverse perspectives.",
+      "In addition to classification, the application provides users with personalized recommendations based on their preferences and health needs. By analyzing user interactions and feedback, the system tailors recommendations to individual users, promoting a personalized approach to herbal medicine.",
+      "The project prioritizes data privacy and security, implementing robust encryption and authentication mechanisms to safeguard user information. Through secure protocols and best practices, the application ensures confidentiality and integrity of user data."
+  ],
+      "proLink": "https://github.com/vlokesh08/Medicinal_plants_classification",
+      "techstack": [
+          "React",
+          "Node.js",
+          "Express.js",
+          "Redis",
+          "OpenAI",
+          "Github"
+      ],
+      "route":"/MedicinalPlantsClassification"
+  },
+  {
     "id": 0,
     "title": "SimpleChat",
     "imageUrl": "https://res.cloudinary.com/dyhb5midi/image/upload/v1714301914/bc51swbnmgp8sn9v8h3e.png",
@@ -61,32 +113,7 @@ const desc = [
     ]
   },
 
-  {
-    "id": 7,
-    "title": "Medicinal Plants Classification",
-    "imageUrl": "https://res.cloudinary.com/dyhb5midi/image/upload/v1714748387/Medicinal_Plants_Classification_y8elho.jpg",
-    "description": [
-      "The Medicinal Plants Classification project harnesses the power of Convolutional Neural Networks (CNN) to accurately classify various plant species based on their medicinal properties. Built as a full-stack application using React, Node.js, and Express.js, this project seamlessly integrates cutting-edge technology with user-friendly interfaces.",
-      "Utilizing OpenAI's vast database, the application retrieves detailed information regarding the medicinal uses of each plant species, offering users comprehensive insights into the health benefits they provide.",
-      "Redis is employed to enhance data access speeds, ensuring quick retrieval and seamless user experience. By leveraging Redis caching, the application optimizes performance, enabling swift access to pertinent information.",
-      "The project's frontend, developed with React, delivers an intuitive and engaging user interface, allowing users to effortlessly interact with the application. Through React's component-based architecture, the user experience is tailored for simplicity and efficiency.",
-      "On the backend, Node.js and Express.js power the application's server-side operations, facilitating seamless communication between the frontend and backend components. The robustness and scalability of these technologies ensure reliable performance and smooth operation.",
-      "The project's core functionality lies in its ability to accurately classify medicinal plants using CNN. By training the neural network on a diverse dataset of plant images, the application can identify and categorize plant species based on their medicinal attributes with high precision and accuracy.",
-      "To enhance user engagement and knowledge, the application incorporates a feature for users to contribute their own insights and experiences regarding the medicinal uses of plants. This fosters a collaborative community and enriches the database with diverse perspectives.",
-      "In addition to classification, the application provides users with personalized recommendations based on their preferences and health needs. By analyzing user interactions and feedback, the system tailors recommendations to individual users, promoting a personalized approach to herbal medicine.",
-      "The project prioritizes data privacy and security, implementing robust encryption and authentication mechanisms to safeguard user information. Through secure protocols and best practices, the application ensures confidentiality and integrity of user data."
-  ],
-      "proLink": "https://github.com/vlokesh08/Medicinal_plants_classification",
-      "techstack": [
-          "React",
-          "Node.js",
-          "Express.js",
-          "Redis",
-          "OpenAI",
-          "Github"
-      ],
-      "route":"/MedicinalPlantsClassification"
-  },
+
   {
     "id": 8,
     "title": "Google Authentication using Firebase and Aceternity UI",
@@ -106,27 +133,6 @@ const desc = [
       ],
       "route":"/GoogleAuthentication",
   },
-  {
-    "id": 9,
-    "title": "HelpPro - Get help with your projects",
-    "imageUrl": "https://private-user-images.githubusercontent.com/76467286/334305615-d4359acf-681b-4bae-b4b5-62183a5c4710.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTY4ODA4MTMsIm5iZiI6MTcxNjg4MDUxMywicGF0aCI6Ii83NjQ2NzI4Ni8zMzQzMDU2MTUtZDQzNTlhY2YtNjgxYi00YmFlLWI0YjUtNjIxODNhNWM0NzEwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTI4VDA3MTUxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY5ODg3Njg0MmU1ZWMxYTk4ZDczNDZhOGJiMTgxYjBmMDlmMzQ4ZTM4YThlNDcwODE4MWRjZWI0MDkwYjBjYWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lHTL0ycLJNh5DybMSubiNzFG8tVTa7Uu0rypM8Om1dA",
-    "description": [
-      "HelpPro is a collaborative platform built using React, Node.js, Express.js, and MongoDB, tailored to facilitate project assistance. It provides a centralized hub where individuals can seek help for their projects while also offering opportunities for others to contribute and earn rewards.",
-      "Using HelpPro, users can seamlessly post project details, outlining their requirements and objectives. This information is then accessible to a wide network of potential helpers, fostering collaboration and knowledge sharing.",
-      "One of the distinctive features of HelpPro is its bounty system, which allows project owners to incentivize completion by offering rewards to those who successfully finish their projects. This encourages efficient and high-quality work while providing an additional source of motivation for helpers.",
-      "To ensure secure access and interaction within the platform, HelpPro implements authentication using JSON Web Tokens (JWT). This robust authentication mechanism safeguards user data and privacy, fostering trust and confidence among users.",
-      "Overall, HelpPro streamlines the process of seeking and providing project assistance, fostering a vibrant and supportive community of users. Whether you're a project owner in need of help or a skilled individual looking to contribute, HelpPro offers a versatile and user-friendly platform to fulfill your project needs."
-  ],  
-      "proLink": "https://github.com/vlokesh08/HelpPro-frontend",
-      "techstack": [
-          "React",
-          "Node.js",
-          "Express.js",
-          "MongoDB",
-          "ShadCN",
-          "Github"
-      ],
-      "route":"/HelpPro"
-  },
+  
   ]
 export default desc;

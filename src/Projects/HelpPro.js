@@ -6,11 +6,15 @@ import Medicinal2 from "../images/Projects/Medicinal3.png";
 const HelpPro = () => {
   const techstack = [
     "React",
-    "Node.js",
-    "Express.js",
+    "Hono",
+    "Postgress SQL",
+    "Prisma",
+    "ShadCN",
     "Github",
-    "MongoDB",
-    "JWT",
+    "CloudFlare Workers",
+    "Cloudflare R2",
+    "Socket.io",
+    "Express JS", 
   ];
   return (
     <div>
@@ -42,7 +46,9 @@ const HelpPro = () => {
                     About the Project
                   </h2>
                   <p className=" text-justify">
-                  A MERN stack platform fostering collaboration between new developers and experienced professionals, incentivizing problem-solving through a bounty system for GitHub issues.
+                    A MERN stack platform fostering collaboration between new
+                    developers and experienced professionals, incentivizing
+                    problem-solving through a bounty system for GitHub issues.
                   </p>
                 </div>
                 <div className="w-full md:ml-12">
@@ -60,10 +66,10 @@ const HelpPro = () => {
                 Things Learnt in this Project
               </h1>
               <ul className="space-y-3">
-                <ListItem text="Integration of Machine Learning with Web Technologies" />
-                <ListItem text="Effective Use of APIs" />
-                <ListItem text="Caching for Performance Optimization" />
-                <ListItem text="Image Processing and Plant Identification" />
+                <ListItem text="Learnt dealing with the routes and authentication using Hono" />
+                <ListItem text="Learnt how Cloudflare workers work and also used R2 buckets to store images" />
+                <ListItem text="Learnt Postgress with Prisma ORM" />
+                <ListItem text="Implemented clear Realtime messaging between the developers using Socket.io" />
               </ul>
             </div>
             <div className="flex flex-row gap-3 mt-12 text-justify justify-center align-middle">
@@ -82,7 +88,7 @@ const HelpPro = () => {
                   </p>
                   <br></br>
                   <div className="flex justify-center align-middle">
-                    <img src={Medicinal1} className=" "></img>
+                    <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394366/Screenshot_2024-07-19_183557_rggqfi.png" className=" "></img>
                   </div>
                   <p className="text-justify text-lg">
                     One of the core features of HelpPro is its bounty system,
@@ -99,6 +105,9 @@ const HelpPro = () => {
                   </p>
 
                   <br></br>
+                  <div className="flex justify-center align-middle">
+                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394282/login_ll3jq7.png" className=" "></img>
+                </div>
                   <p className="text-justify text-lg">
                     The development of HelpPro involved meticulous planning and
                     execution. The frontend, built with React, provides a
@@ -111,7 +120,9 @@ const HelpPro = () => {
                     storing user data and project details securely.
                   </p>
                   <br></br>
-                  
+                  <div className="flex justify-center align-middle">
+                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394081/Screenshot_2024-07-19_182624_iwkyhw.png" className=" "></img>
+                </div>
                   <br></br>
                   <p className=" text-justify text-lg">
                     In addition to its technical architecture, HelpPro
@@ -125,6 +136,9 @@ const HelpPro = () => {
                     interaction within the community.
                   </p>
                   <br></br>
+                  <div className="flex justify-center align-middle">
+                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394076/Screenshot_2024-07-19_182731_ppwncp.png" className=" "></img>
+                </div>
                   <p className=" text-justify text-lg">
                     HelpPro stands out not only for its technical implementation
                     but also for its contribution to the developer ecosystem. By
@@ -135,6 +149,13 @@ const HelpPro = () => {
                     problems efficiently, making it a significant addition to
                     the world of web development and open-source collaboration.
                   </p>
+                  <br></br>
+                  <div className="flex justify-center align-middle">
+                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394075/Screenshot_2024-07-19_182752_apyy2g.png" className=" "></img>
+                </div>
+                <div className="flex justify-center align-middle">
+                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721393643/1_m8mkr0.png" className=" "></img>
+                </div>
                   <div className="flex justify-center mt-8">
                     <a href="https://github.com/vlokesh08/HelpPro">
                       <button

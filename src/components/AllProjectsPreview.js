@@ -13,7 +13,7 @@ const AllProjectsPreview = () => {
   };
 
   return (
-    <div>
+    <div className="py-10">
       <div className="container flex justify-center">
         <h1 className="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-10 md:mb-15 lg:mb-25">
           All Projects <br></br>
@@ -30,7 +30,7 @@ const AllProjectsPreview = () => {
           >
             <div style={{ position: 'relative' }}>
             
-              <img src={project.imageUrl} alt={project.title} className="h-[350px]"></img>
+              <img src={project.imageUrl} alt={project.title} className="h-[350px] bg-cover"></img>
               {hoveredProject === project.id && (
                 <div
                   style={{

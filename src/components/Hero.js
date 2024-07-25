@@ -5,9 +5,9 @@ import { a } from "react-router-dom";
 const Hero = () => {
   return (
     <>
-      <div className="container">
-        <div className="flex justify-center align-middle h-screen z-10">
-          <div className="flex flex-col justify-center align-middle h-screen p-4">
+      <div className="container dark:bg-darkbg min-h-screen ">
+        <div className="min-h-screen flex justify-center items-center z-10">
+          <div className="">
             <div className=" text-4xl p-2">
               <h2>Hello! </h2>
             </div>
@@ -24,12 +24,9 @@ const Hero = () => {
               </h2>
             </div>
             <div className=" text-lg text-pallete-600 p-2">
-              Aspiring and enthusiastic full-stack developer dedicated to
-              mastering new technologies, with a current focus on WebRTC and
-              WebSockets. Passionate about creating innovative web solutions and
-              constantly exploring the evolving landscape of programming.
-              Committed to honing skills and crafting seamless digital
-              experiences.
+              Currently diving into Web3 and Blockchain Development. 
+              Scalling up my skills in React, Node.js, Solidity, and Smart Contracts.
+
             </div>
             <div>
               <h1 className="font-bold text-7xl text-blue-gray-200">

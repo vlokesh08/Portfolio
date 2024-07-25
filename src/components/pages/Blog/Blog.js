@@ -4,7 +4,7 @@ import posts from "../learnings/posts";
 const Blog = () => {
     const { id } = useParams();
   return (
-    <div className="container">
+    <div className="container py-10">
       <div className="flex justify-center">
         <h1 className="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-10 md:mb-15 lg:mb-25">
           Daily Learnings of month {id}<br></br>
