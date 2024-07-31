@@ -96,7 +96,14 @@ const posts = {
       summary : "Started learning Bit Manipulation and solved some problems on LeetCode and CSES",
       tags: ["LeetCode","CSES","Bit Manipulation"]
     }
-  ]
+  ], 
+  "July" : [
+    {
+      date : "01-07-2024  to  31-07-2024",
+      summary : "This month was full of learning and doing project HelpPro and solving problems on LeetCode and CSES",
+      tags : ["LeetCode","CSES","Project", "HelpPro"]
+    }
+  ],
     
     
   };
