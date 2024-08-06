@@ -2,6 +2,7 @@ import React from "react";
 import Medicinal from "../images/Projects/Medicinal.jpg";
 import Medicinal1 from "../images/Projects/HelpPro1.png";
 import Medicinal2 from "../images/Projects/Medicinal3.png";
+import { Github, Link } from "lucide-react";
 
 const HelpPro = () => {
   const techstack = [
@@ -14,7 +15,7 @@ const HelpPro = () => {
     "CloudFlare Workers",
     "Cloudflare R2",
     "Socket.io",
-    "Express JS", 
+    "Express JS",
   ];
   return (
     <div>
@@ -46,9 +47,12 @@ const HelpPro = () => {
                     About the Project
                   </h2>
                   <p className=" text-justify">
-                    A MERN stack platform fostering collaboration between new
-                    developers and experienced professionals, incentivizing
-                    problem-solving through a bounty system for GitHub issues.
+                    HelpPro is a platform connecting new developers with
+                    professionals for GitHub issue bounties and collaboration,
+                    utilizing React, Hono, PostgreSQL, Prisma, and Socket.IO for
+                    real-time messaging and data management. It fosters
+                    community engagement and continuous learning by establishing
+                    a warehouse for open-source projects.
                   </p>
                 </div>
                 <div className="w-full md:ml-12">
@@ -75,107 +79,130 @@ const HelpPro = () => {
             <div className="flex flex-row gap-3 mt-12 text-justify justify-center align-middle">
               <div className="flex flex-row">
                 <div className="">
-                  <p className="m-15 p-2 text-lg">
-                    HelpPro is an innovative platform designed to bridge the gap
-                    between new developers and experienced professionals,
-                    fostering a collaborative environment where learning and
-                    growth are paramount. Developed using the MERN stack
-                    (MongoDB, ExpressJS, React, and NodeJS), HelpPro enables
-                    users to post and solve GitHub issues through a bounty
-                    system. This unique approach not only facilitates knowledge
-                    sharing but also incentivizes problem-solving, making it an
-                    invaluable resource for the developer community.
+                  <p className="m-15 p-2 text-lg my-4">
+                    In the development of HelpPro, various technologies were
+                    utilized to create a robust and efficient platform. The
+                    primary front-end framework used was React, chosen for its
+                    ability to build dynamic and interactive user interfaces.
+                    React's component-based architecture allowed for reusable
+                    components, enhancing code maintainability and scalability.
+                    State management was efficiently handled using React's
+                    built-in hooks and context API, ensuring a smooth and
+                    responsive user experience.
                   </p>
                   <br></br>
                   <div className="flex justify-center align-middle">
-                    <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394366/Screenshot_2024-07-19_183557_rggqfi.png" className=" "></img>
+                    <img
+                      src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394366/Screenshot_2024-07-19_183557_rggqfi.png"
+                      className=" "
+                    ></img>
                   </div>
-                  <p className="text-justify text-lg">
-                    One of the core features of HelpPro is its bounty system,
-                    which allows users to attach rewards to specific GitHub
-                    issues. New developers can post issues they are facing and
-                    attach a bounty, while experienced professionals can claim
-                    these bounties by providing solutions. This system
-                    encourages active participation and ensures that issues are
-                    addressed promptly, benefiting both parties involved. The
-                    integration of JWT (JSON Web Token) authentication ensures
-                    that all transactions and interactions on the platform are
-                    secure, providing a safe environment for users to
-                    collaborate.
+                  <p className="text-justify text-lg my-6">
+                    On the server side, Hono was employed to create a fast and
+                    lightweight backend. Hono, being a web framework optimized
+                    for performance, provided a solid foundation for handling
+                    HTTP requests and routing. Its minimalistic approach allowed
+                    for rapid development while maintaining high performance.
+                    The backend was responsible for processing user requests,
+                    handling authentication, and serving the necessary data to
+                    the front end.
                   </p>
 
                   <br></br>
                   <div className="flex justify-center align-middle">
-                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394282/login_ll3jq7.png" className=" "></img>
-                </div>
-                  <p className="text-justify text-lg">
-                    The development of HelpPro involved meticulous planning and
-                    execution. The frontend, built with React, provides a
-                    responsive and user-friendly interface that enhances the
-                    overall user experience. The use of React's component-based
-                    architecture ensures that the application is modular and
-                    easy to maintain. On the backend, ExpressJS and NodeJS
-                    handle the server-side logic and API requests efficiently,
-                    while MongoDB serves as the robust database solution,
-                    storing user data and project details securely.
+                    <img
+                      src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394282/login_ll3jq7.png"
+                      className=" "
+                    ></img>
+                  </div>
+                  <p className="text-justify text-lg  my-6">
+                    PostgreSQL was the database of choice for HelpPro, selected
+                    for its reliability and powerful querying capabilities.
+                    PostgreSQL's support for advanced data types and indexing
+                    techniques ensured efficient data storage and retrieval.
+                    This was crucial for managing the platform's extensive user
+                    data, including profiles, messages, and project details. The
+                    relational database structure also facilitated complex
+                    queries and relationships, essential for the platform's
+                    collaborative features.
                   </p>
                   <br></br>
                   <div className="flex justify-center align-middle">
-                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394081/Screenshot_2024-07-19_182624_iwkyhw.png" className=" "></img>
-                </div>
+                    <img
+                      src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394081/Screenshot_2024-07-19_182624_iwkyhw.png"
+                      className=" "
+                    ></img>
+                  </div>
                   <br></br>
-                  <p className=" text-justify text-lg">
-                    In addition to its technical architecture, HelpPro
-                    emphasizes user experience and ease of use. The platform is
-                    designed to be intuitive, allowing users to navigate through
-                    different sections effortlessly. Users can easily post new
-                    issues, search for existing ones, and view the status of
-                    their bounties. The integration of real-time notifications
-                    ensures that users are always updated on the progress of
-                    their issues, fostering continuous engagement and
-                    interaction within the community.
+                  <p className=" text-justify text-lg  my-6">
+                    To interact with the PostgreSQL database, Prisma was
+                    utilized as the ORM (Object-Relational Mapping) tool.
+                    Prisma's type-safe query capabilities and intuitive API
+                    streamlined database operations, reducing the likelihood of
+                    runtime errors. By abstracting the database layer, Prisma
+                    allowed developers to focus on application logic rather than
+                    writing complex SQL queries. This integration ensured
+                    seamless data management and synchronization between the
+                    backend and the database.
                   </p>
                   <br></br>
                   <div className="flex justify-center align-middle">
-                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394076/Screenshot_2024-07-19_182731_ppwncp.png" className=" "></img>
-                </div>
-                  <p className=" text-justify text-lg">
-                    HelpPro stands out not only for its technical implementation
-                    but also for its contribution to the developer ecosystem. By
-                    providing a platform where new developers can learn from
-                    experienced professionals, it helps in building a stronger
-                    and more collaborative community. The project's success lies
-                    in its ability to connect people, share knowledge, and solve
-                    problems efficiently, making it a significant addition to
-                    the world of web development and open-source collaboration.
+                    <img
+                      src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394076/Screenshot_2024-07-19_182731_ppwncp.png"
+                      className=" "
+                    ></img>
+                  </div>
+                  <p className=" text-justify text-lg my-6">
+                    Socket.IO played a vital role in enabling real-time
+                    communication within HelpPro. It facilitated instant
+                    messaging between users, enhancing collaboration and
+                    support. Socket.IO's bi-directional communication
+                    capabilities allowed for real-time updates without the need
+                    for page refreshes, providing a smooth and interactive user
+                    experience. This was particularly important for features
+                    like live chat and notifications, which are core to the
+                    platform's functionality.
                   </p>
                   <br></br>
                   <div className="flex justify-center align-middle">
-                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394075/Screenshot_2024-07-19_182752_apyy2g.png" className=" "></img>
-                </div>
-                <div className="flex justify-center align-middle">
-                  <img src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721393643/1_m8mkr0.png" className=" "></img>
-                </div>
-                  <div className="flex justify-center mt-8">
+                    <img
+                      src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721394075/Screenshot_2024-07-19_182752_apyy2g.png"
+                      className=" "
+                    ></img>
+                  </div>
+                  <p className=" text-justify text-lg my-6">
+                    Overall, the combination of these technologies resulted in a
+                    highly efficient and scalable platform. React provided a
+                    dynamic and responsive user interface, Hono ensured a fast
+                    and reliable backend, PostgreSQL offered robust data
+                    management, Prisma simplified database interactions, and
+                    Socket.IO enabled real-time communication. Together, these
+                    tools created a comprehensive solution that met the needs of
+                    developers seeking collaboration and support on HelpPro.
+                  </p>
+                  <div className="flex justify-center align-middle">
+                    <img
+                      src="https://res.cloudinary.com/dyhb5midi/image/upload/v1721393643/1_m8mkr0.png"
+                      className=" "
+                    ></img>
+                  </div>
+                  <div className="flex justify-center mt-8 gap-3">
                     <a href="https://github.com/vlokesh08/HelpPro">
                       <button
                         type="button"
-                        className="text-white bg-[#24292F] hover:bg-[#24292F]/90  focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2"
+                        className="text-white bg-slate-700   hover:bg-slate-800  focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2"
                       >
-                        <svg
-                          className="w-4 h-4 me-2"
-                          aria-hidden="true"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
-                            clip-rule="evenodd"
-                          />
-                        </svg>
+                        <Github size={20} className="mr-2" />
                         Github Repository
+                      </button>
+                    </a>
+                    <a href="https://helppro.vercel.app/">
+                      <button
+                        type="button"
+                        className="text-white bg-slate-700 hover:bg-[#24292F]/90  focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2"
+                      >
+                        <Link size={20} className="mr-2" />
+                        Live Link
                       </button>
                     </a>
                   </div>

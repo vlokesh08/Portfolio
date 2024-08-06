@@ -68,7 +68,6 @@ const MedicinalPlantsClassification = () => {
                 <ListItem text="Effective Use of APIs" />
                 <ListItem text="Caching for Performance Optimization" />
                 <ListItem text="Image Processing and Plant Identification" />
-                <ListItem text="If you are going to use a of Lorem" />
               </ul>
             </div>
             <div className="flex flex-row gap-3 mt-12 text-justify justify-center align-middle">
