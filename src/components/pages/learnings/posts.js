@@ -104,7 +104,13 @@ const posts = {
       tags : ["LeetCode","CSES","Project", "HelpPro"]
     }
   ],
-    
+    "August" : [
+      {
+        date : "07-08-2024",
+        summary : "Started with solving Daily Challenge on Leetcode and then known how Nginx works and also Kubernetes",
+        tags : ["LeetCode","Nginx","Kubernetes"]
+      }
+    ]
     
   };
 

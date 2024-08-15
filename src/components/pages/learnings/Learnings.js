@@ -39,6 +39,14 @@ const Learnings = () => {
               <ListItem />
               <h2>Solidity</h2>
             </div>
+            <div className="flex gap-2">
+              <ListItem />
+              <h2>AWS EC2 Instance</h2>
+            </div>
+            <div className="flex gap-2">
+              <ListItem />
+              <h2>Nginx</h2>
+            </div>
           </div>
         </div>
         <ul className="grid grid-cols-2 md:grid-cols-3 gap-5 p-4">

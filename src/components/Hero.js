@@ -17,7 +17,7 @@ const Hero = () => {
             <div className=" text-4xl p-2">
               <h2>
                 I am an{" "}
-                <span className=" font-semibold">
+                <span className=" font-semibold dark:text-slate-300">
                   Enthusiastic Fullstack Developer
                 </span>{" "}
                 .{" "}

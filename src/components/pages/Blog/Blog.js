@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <div className="container py-10">
       <div className="flex justify-center">
-        <h1 className="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-10 md:mb-15 lg:mb-25">
+        <h1 className="font-normal text-gray-300 dark:text-slate-500 text-3xl md:text-3xl lg:text-5xl mb-10 md:mb-15 lg:mb-25">
           Daily Learnings of month {id}<br></br>
         </h1>
       </div>
