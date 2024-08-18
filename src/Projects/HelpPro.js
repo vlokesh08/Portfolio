@@ -76,7 +76,8 @@ const HelpPro = () => {
                 <ListItem text="Implemented clear Realtime messaging between the developers using Socket.io" />
                 <ListItem text="Worked with Github Api's for fetching the details of the User Repositories" />
                 <ListItem text="Implemented Notification System for Messages and any events related to Comments and Follow requests" />
-
+                <ListItem text="Deployed Socket.io Server on AWS" />
+                <ListItem text="Learnt how the proxies work with the Nginx" />
               </ul>
             </div>
             <div className="flex flex-row gap-3 mt-12 text-justify justify-center align-middle">
