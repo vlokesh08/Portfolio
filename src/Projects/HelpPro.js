@@ -74,6 +74,7 @@ const HelpPro = () => {
                 <ListItem text="Learnt how Cloudflare workers work and also used R2 buckets to store images" />
                 <ListItem text="Learnt Postgress with Prisma ORM" />
                 <ListItem text="Implemented clear Realtime messaging between the developers using Socket.io" />
+                <ListItem text="Worked with Github Api's for fetching the details of the User Repositories" />
               </ul>
             </div>
             <div className="flex flex-row gap-3 mt-12 text-justify justify-center align-middle">
