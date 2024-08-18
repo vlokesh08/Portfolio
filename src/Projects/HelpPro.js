@@ -75,6 +75,8 @@ const HelpPro = () => {
                 <ListItem text="Learnt Postgress with Prisma ORM" />
                 <ListItem text="Implemented clear Realtime messaging between the developers using Socket.io" />
                 <ListItem text="Worked with Github Api's for fetching the details of the User Repositories" />
+                <ListItem text="Implemented Notification System for Messages and any events related to Comments and Follow requests" />
+
               </ul>
             </div>
             <div className="flex flex-row gap-3 mt-12 text-justify justify-center align-middle">
